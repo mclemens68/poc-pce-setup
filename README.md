@@ -3,6 +3,7 @@ Some useful steps for setting up a SaaS PCE in prep for a POC
 
 Things to do when starting a POC:
 
+	0) Go to your profile and switch default view from Reported to Draft
 	1) Create Firewall coexistence rule
 	2) Turn on Core Services Detection and Scanner Detection
 	3) Delete the default rules
