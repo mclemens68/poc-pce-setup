@@ -19,8 +19,5 @@ rm -rf delete_*.csv
 # Import starter labels
 workloader label-import workloader-label-import-poc.csv --update-pce --no-prompt --pce $PCE_NAME
 
-# Import ignored-ports service
-workloader svc-import workloader-svc-import-ignored-ports.csv --update-pce --no-prompt --pce $PCE_NAME --provision
-
 # Import starter iplists
 workloader ipl-import workloader-ipl-import-poc.csv --update-pce --no-prompt --pce $PCE_NAME --provision
