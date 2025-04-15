@@ -6,7 +6,7 @@ Things to do when starting a POC:
 	1) Create Firewall coexistence rule and Provision
 	2) Turn on Core Services Detection and Scanner Detection
 	3) Edit Label Settings to enable Icon + Prefix
-	4) Delete the default rules
+	4) Delete the default rules (if any)
 	5) Delete the pre-canned labels
 	6) Import starter labels
        workloader label-import workloader-label-import-poc.csv --update-pce --no-prompt
